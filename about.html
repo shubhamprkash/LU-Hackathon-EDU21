@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #495d47;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>TechPandas is an e-education web platform where students can register and watch online lectures as well as teachers can conduct online exams with proper anti-cheat values.</p>
+  <p>Students and teachers will experience the best way of learning online.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Sivanjali" style="width:100%">
+      <div class="container">
+        <h2>J Sivanjali</h2>
+        <p class="title">Leader and Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>svanjali128@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Pallavi" style="width:100%">
+      <div class="container">
+        <h2>Pallavi Yadav</h2>
+        <p class="title">Co-founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>pallavi.23y9@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Shubham" style="width:100%">
+      <div class="container">
+        <h2>Shubham Prakash</h2>
+        <p class="title">Co-founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>d1901.bca@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Das" style="width:100%">
+      <div class="container">
+        <h2>Sarthak Das</h2>
+        <p class="title">Co-founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>	sarthakblr11@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
